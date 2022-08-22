@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Samim;
+  src: url('./assets/fonts/Samim.woff') format('woff');
+  font-style: normal;
+}
+
+body {
+  display: grid;
+  font-family: Samim;
+  background-color: #5e96b6;
+  justify-content: center;
+  align-items: center;
+
+}
+
+a {
+  /*margin: 8px;*/
+  padding: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-decoration: none;
+
+}
+
+img {
+  border-radius: 24%;
+  width: 50%;
+  /*transition-delay: 0.5s;*/
+
+}
+
+img:hover{
+  width: 110%;
+  box-shadow: #eab1b1 6px 6px 6px 1px ;
+
+  border-bottom: #edfffd solid 6px;
+  border-right: #edfffd solid 3px;
+  border-radius: 33%;
+  /*transition-delay: 300ms;*/
+
+}
+
+.banners {
+  /*margin: ;*/
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+  margin-right: 10vw;
+
+  /*box-shadow: #eab1b1 20px -3px 10px 1px inset;*/
+
+}
+
+.positionSetting {
+  /*position: fixed;*/
+  /*overflow: auto;*/
+  /*float: right;*/
+  top: 33%;
+  left: 33%;
+}
+
+.buttonSet {
+  /*background-color: rgba(34, 95, 84, 0.9);*/
+
+  font-family: Samim;
+  font-size: 3vh;
+  margin: 9vw;
+  /*padding: 3vh;*/
+  box-sizing: content-box;
+  /*top: 20%;*/
+  border: #edfffd solid 12px;
+  border-radius: 72px;
+  color: white;
+  text-outline: darkslategray;
+
+}
+
+.button #1{
+
+  /*float: left;*/
+  background-color: #354476;
+  border: lightblue solid 3px;
+  border-radius: 25%;
+  /*font-size: 6vh;*/
+
+
+}
+
+.button #2{
+  /*color: rgba(180, 224, 216, 0.9);*/
+  /*float: right;*/
+  background-color: #354476;
+  border: lightblue solid 3px;
+  border-radius: 25%;
+  /*font-size: 6vh;*/
+
+}
